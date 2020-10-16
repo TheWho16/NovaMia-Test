@@ -13,9 +13,9 @@ export default class App extends Component {
 
   state = {
     items: [
-      { id: 1, label: 'Английский', important: false, done: false },
-      { id: 2, label: 'native JS', important: false, done: false },
-      { id: 3, label: 'Сделать React app', important: true, done: false }
+      { id: 1, label: 'Tree view', done: false },
+      { id: 2, label: 'Spiral',  done: false },
+      { id: 3, label: 'Сделать React app',  done: false }
     ],
     filter: 'all',
     search: ''
