@@ -18,14 +18,15 @@ body {
 }
 .wrapper {
   margin-top: 6.6%;
-  margin-left: 25%;
-  width: 50%;
+  padding-top: 4%;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: center;
   justify-content: center;
   text-align: center;
   background: rgb(179, 245, 240);
+  -webkit-box-shadow: 0 0 10px 5px #2cc9bc;
   box-shadow: 0 0 10px 5px #2cc9bc;
-  max-height: 340px;
   min-height: 350px;
 }
 

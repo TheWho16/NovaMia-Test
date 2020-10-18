@@ -1,5 +1,5 @@
 .app-header {
-  align-items: flex-end;
+  flex-direction: column;
 }
 
 .app-header h1 {
